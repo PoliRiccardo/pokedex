@@ -141,7 +141,7 @@ document.getElementById("closeModal").addEventListener("click", () => {
 });
 btnPokedex.addEventListener("click" , function(){
     sessionStorage.setItem('pokemon', JSON.stringify(Array.from(pokemon)));
-    document.location.href = '../pagina_iniziale/index.html';
+    document.location.href = 'index.html';
 })
 function liberaPokemon(index){
     if (pokemon.length > 1) {

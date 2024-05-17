@@ -7,7 +7,7 @@ else var pokemon = new Set();
 
 btnInventory.addEventListener("click" , function(){
     sessionStorage.setItem('pokemon', JSON.stringify(Array.from(pokemon)));
-    document.location.href = '../pagina_catch/catch.html';
+    document.location.href = 'catch.html';
 })
 
 document.getElementById("n_mypokemon").innerHTML = pokemon.size;
